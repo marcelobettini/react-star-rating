@@ -1,11 +1,11 @@
 import React, { FC, useState } from "react";
 import Star from "./Star";
 const createArray = (length: number) => [...Array(length)];
-interface StarRatingProps {
+interface iProps {
   totalStars?: number;
   style?: object;
 }
-const StarRating: FC<StarRatingProps> = ({ totalStars = 5, style = {} }) => {
+const StarRating: FC<iProps> = ({ totalStars = 5, style = {} }) => {
   const [selectedStars, setSelectedStars] = useState(0);
   return (
     <div style={{ ...style }}>
