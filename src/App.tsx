@@ -7,14 +7,14 @@ const starStyling = {
   flexDirection: "column",
   justifyContent: "space-around",
   height: "90px",
-  width: "200px",
+  padding: '.5em 1em',
   textAlign: "center",
-};
+}
 
 function App() {
   return (
     <main className="app-container">
-      <StarRating style={starStyling} />
+      <StarRating style={starStyling} totalStars={10} />
     </main>
   );
 }
