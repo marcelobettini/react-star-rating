@@ -18,7 +18,7 @@ const StarRating: FC<iProps> = ({ totalStars = 5, style = {} }) => {
           />
         ))}
       </div>
-
+      {/* <= totalStars - 1 */}
       {selectedStars < 5 ? (
         <span>
           {selectedStars} of {totalStars} stars

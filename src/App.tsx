@@ -2,14 +2,14 @@ import "./App.css";
 import StarRating from "./components/StarRating.jsx";
 
 const starStyling = {
-  backgroundColor: "tomato",
+  backgroundColor: "#314dee",
   display: "flex",
   flexDirection: "column",
   justifyContent: "space-around",
-  height: "90px",
-  padding: '.5em 1em',
+  height: "60px",
+  padding: ".5em 1em",
   textAlign: "center",
-}
+};
 
 function App() {
   return (
